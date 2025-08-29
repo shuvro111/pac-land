@@ -1,0 +1,22 @@
+# Productivity and General Apps
+mpv
+zen-browser-bin
+whatsapp-for-linux-bin
+google-chrome
+surfshark-vpn-bin
+cursor-bin
+upwork
+zoom
+transmission-gtk
+7-zip
+warp-terminal-bin
+spotify
+insomnia-bin
+figma-linux-bin
+loom-desktop
+flameshot
+
+# Development Tools
+nvm
+bun
+git
