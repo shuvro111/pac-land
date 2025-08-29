@@ -12,14 +12,10 @@ A simple, user-friendly Bash script to automate the installation of your favorit
 - **Idempotent**: The script will not reinstall applications that are already present on your system.
 - **Yay Installation**: The script will automatically install the `yay` AUR helper if it is not already found on your system.
 
----
-
 ## 📋 Prerequisites
 
 - A fresh installation of Arch Linux.
 - An active internet connection.
-
----
 
 ## 🚀 Installation & Usage
 
@@ -58,17 +54,6 @@ A simple, user-friendly Bash script to automate the installation of your favorit
     ```bash
     ./install-apps.sh my-custom-list.txt
     ```
-
----
-
-## 🛠️ How It Works
-
-The script is a simple Bash script that uses the powerful `yay` package manager.
-
-1.  **Update**: It runs `yay -Syu --noconfirm` to ensure your system and all installed packages are up to date.
-2.  **Read File**: It reads the list of applications from the `apps.txt` file line by line.
-3.  **Install**: For each application, it runs `yay -S <app_name> --needed --noconfirm`. The `yay` command is intelligent and automatically determines whether the package comes from the official repositories or the AUR.
-4.  **Error Handling**: The script checks the exit status of each `yay` command and provides clear `[INFO]`, `[WARN]`, and `[ERROR]` logs.
 
 ---
 
